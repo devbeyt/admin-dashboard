@@ -1,0 +1,25 @@
+.sidebar   {display: flex; transition: all 0.1s ease; flex-direction: column; inset: 0 70% 0 0; 
+            width: 20%; height: 100vh; position: sticky; left: 0; top: 0; 
+            border-right: 0.5px solid var(--light-gray); background-color: #171717;}
+.sidebar-mobile  {display: flex; width: 6%; flex-direction: column; align-items: center; 
+                 transition: all 0.3s ease; height: 100vh; background-color: #171717;
+                  position: sticky; left: 0; top: 0; border-right: 0.5px solid var(--light-gray);}
+.top {display: flex; justify-content: center; margin-bottom: 20px;}
+.top_content {display: flex; align-items: center; width: 100%; }
+.avatar  {width: 35px; height: 35px; border: 1px solid #999; border-radius: 50%; }
+.logo  {color: white; display: inline-block; font-size: 14px; margin-left: 10px; }
+
+
+nav .ul-item  {display: flex; flex-direction: column;  list-style: none;}
+nav .ul-item.oicon a  {display: none;}
+nav .ul-item.oicon li::after  {content: ''; position: absolute; width: 1%; height: 4%; background-color: #fff;
+                               left: 0;}
+nav .ul-item li  {display: flex; align-items: center;  cursor: pointer;  transition: all 0.4s ease;
+                  border: 0.5px solid transparent;}
+nav .ul-item li .icon  {color: rgb(0, 255, 145); margin: 10px; font-size: 18px;}
+nav .ul-item li a  {text-transform: uppercase; text-decoration: none; color: #999;
+                     border-left: 1px solid white; padding-left: 8px; font-size: 12px; font-weight: 500;}
+.menu-icon  {margin-inline: 1rem;}
+.menu-icon .menu {color: rgb(0, 255, 145); margin-block: 1rem; cursor: pointer; font-size: 24px;}
+
+.link_title {display: inline-block; color: #fff; font-size: 12px; margin: 2px 0;}

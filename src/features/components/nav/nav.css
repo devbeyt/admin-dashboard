@@ -1,0 +1,15 @@
+.navi {width: 100%;  border-bottom: 0.5px solid var(--light-gray); color: rgb(0, 255, 145); font-size: 14px;
+      background-color: #171717;}
+.wrapper  {height: 50px; display: flex; align-items: center; justify-content: space-between;}
+
+.search,
+.items {display: flex; align-items: center;}
+.search  { padding: 3px; border: 0.5px solid var(--light-gray);}
+.search > input  {border: none; outline: none; background-color: transparent; font-size: 14px;}
+.nav_icon  {font-size: 22px;}
+.avatar {width: 35px; height: 35px; border-radius: 50%; border: none;}
+
+.count,
+.message {position: absolute; top: -8px; right: -10px; font-size: 14px; background-color: red; 
+        border-radius: 50%; display: inline-block; width: 20px; height: 20px; display: flex; 
+        align-items: center; justify-content: center; padding: 4px;}

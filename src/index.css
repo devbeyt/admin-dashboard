@@ -1,0 +1,9 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
+.container  {width: calc(100% - 20px); margin: 0 auto;}
+.page {width: 100%; min-height: 700px; }
+.dark_theme {background-color: #171717; color: white;}
+.light_theme {background-color: #fff;}
+:root {
+    --light-gray: #999;
+}
+
